@@ -23,8 +23,8 @@
 
 おや？スライムの様子が...[l][r]
 
-[link target=*tag_beta] →ベタベタスライムLv10 [endlink][r]
-[link target=*tag_ningen] →人間Lv50 [endlink][r]
+[link target=*tag_beta] →ベタベタスライムLv10に進化する [endlink][r]
+[link target=*tag_ningen] →人間Lv50に進化する [endlink][r]
 [s]
 
 *tag_beta
