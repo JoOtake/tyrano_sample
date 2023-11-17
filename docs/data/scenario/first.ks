@@ -1,46 +1,113 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="Lv1スライムの冒険"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「Lv1スライムの冒険」[l][r]
 
-メロスは激怒した。[l][r]
+敵と戦い、レベルを上げて魔王に勝て。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+敵に遭遇した。[l][r]
 
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_Lv1] →蛆虫Lv1 [endlink][r]
+[link target=*tag_Lv50] →人間Lv50 [endlink][r]
 [s]
 
-*tag_sleep
+*tag_Lv1
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+蛆虫に勝利した。楽勝だ。Lvが10になった。[l][r]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+おや？スライムの様子が...[l][r]
 
-【 BAD END 】[l][cm]
+[link target=*tag_beta] →ベタベタスライムLv10 [endlink][r]
+[link target=*tag_ningen] →人間Lv50 [endlink][r]
+[s]
+
+*tag_beta
+
+[cm]
+
+今まで以上にベタベタする。[l][r]
+
+強敵に遭遇した。[l][r]
+
+[link target=*tag_Lv20] →じめじめスライムLv20 [endlink][r]
+[link target=*tag_Lv60] →人間Lv60 [endlink][r]
+[s]
+
+*tag_Lv20
+
+[cm]
+
+じめじめスライムに勝利した。まあまあだ。Lvが30になった。[l][r]
+
+ついに魔王との戦いだ。[l][r]
+
+[link target=*tag_tatakau] →戦う [endlink][r]
+[link target=*tag_inotigoi] →命乞いをする [endlink][r]
+[s]
+
+*tag_tatakau
+
+[cm]
+
+君には無理だよ。スライムごときが奢るな自惚れるな。[r]
+
+【 BAD END 】[l][r]
+
+スライムよ、まだ死ぬ時ではありません。もう一度立ち上がりなさい。[l][cm]
 
 [jump target=*start]
 
-*tag_run
 
-[bg storage=run.jpg time=500]
-
+*tag_inotigoi
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+
+魔王の子分になることで死なずに済んだ。[l][r]
+
+スライムが魔王に勝つことなんてできない。定められた運命なのだよ。[l][r]
 
 【 GOOD END 】[l][cm]
 
 [jump target=*start]
+
+*tag_ningen
+
+[cm]
+
+君には無理だよ。スライムごときが奢るな自惚れるな。[r]
+
+【 BAD END 】[l][r]
+
+スライムよ、まだ死ぬ時ではありません。もう一度立ち上がりなさい。[l][cm]
+
+[jump target=*start]
+
+*tag_Lv50
+
+[cm]
+
+人間に敗北した。スライムごときが奢るな自惚れるな。[r]
+
+【 BAD END 】[l][r]
+
+スライムよ、まだ死ぬ時ではありません。もう一度立ち上がりなさい。[l][cm]
+
+[jump target=*start]
+
+*tag_Lv60
+
+[cm]
+
+人間に敗北した。スライムごときが奢るな自惚れるな。[r]
+
+【 BAD END 】[l][r]
+
+スライムよ、まだ死ぬ時ではありません。もう一度立ち上がりなさい。[l][cm]
+
+[jump target=*start]
+
