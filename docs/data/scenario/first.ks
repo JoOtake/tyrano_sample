@@ -68,6 +68,7 @@
 *tag_inotigoi
 [cm]
 
+ [bg storage=oyabun_kobun_kids (1).png time=500]
 魔王の子分になることで死なずに済んだ。[l][r]
 
 スライムが魔王に勝つことなんてできない。定められた運命なのだよ。[l][r]
@@ -80,7 +81,8 @@
 
 [cm]
 
-君には無理だよ。スライムごときが奢るな自惚れるな。[r]
+ [bg storage=pose_lose_boy.png time=500]
+人間になれるはずがなかった。スライムごときが奢るな自惚れるな。[r]
 
 【 BAD END 】[l][r]
 
@@ -92,6 +94,7 @@
 
 [cm]
 
+ [bg storage=pose_lose_boy.png time=500]
 人間に敗北した。スライムごときが奢るな自惚れるな。[r]
 
 【 BAD END 】[l][r]
@@ -104,6 +107,7 @@
 
 [cm]
 
+ [bg storage=pose_lose_boy.png time=500]
 人間に敗北した。スライムごときが奢るな自惚れるな。[r]
 
 【 BAD END 】[l][r]
