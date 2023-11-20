@@ -11,8 +11,8 @@
 
 敵に遭遇した。[l][r]
 
-[link target=*tag_Lv1] →蛆虫Lv1 [endlink][r]
-[link target=*tag_Lv50] →人間Lv50 [endlink][r]
+[link target=*tag_Lv1] →蛆虫Lv1と戦う [endlink][r]
+[link target=*tag_Lv50] →人間Lv50と戦う [endlink][r]
 [s]
 
 *tag_Lv1
@@ -35,8 +35,8 @@
 
 強敵に遭遇した。[l][r]
 
-[link target=*tag_Lv20] →じめじめスライムLv20 [endlink][r]
-[link target=*tag_Lv60] →人間Lv60 [endlink][r]
+[link target=*tag_Lv20] →じめじめスライムLv20と戦う [endlink][r]
+[link target=*tag_Lv60] →人間Lv60と戦う [endlink][r]
 [s]
 
 *tag_Lv20
@@ -55,7 +55,8 @@
 
 [cm]
 
-君には無理だよ。スライムごときが奢るな自惚れるな。[r]
+ [bg storage=pose_lose_boy.png time=500]
+魔王に敗北した。スライムごときが奢るな自惚れるな。[r]
 
 【 BAD END 】[l][r]
 
