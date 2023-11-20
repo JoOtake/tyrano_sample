@@ -69,7 +69,7 @@
 *tag_inotigoi
 [cm]
 
- [bg storage=oyabun_kobun_kids (1).png time=500]
+ [bg storage=oyabun_kobun_kids.png time=500]
 魔王の子分になることで死なずに済んだ。[l][r]
 
 スライムが魔王に勝つことなんてできない。定められた運命なのだよ。[l][r]
