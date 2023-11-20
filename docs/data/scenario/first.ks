@@ -31,6 +31,7 @@
 
 [cm]
 
+ [bg storage=bcd53b5b957884a684987d8cd7fdbe06.png time=500]
 今まで以上にベタベタする。[l][r]
 
 強敵に遭遇した。[l][r]
